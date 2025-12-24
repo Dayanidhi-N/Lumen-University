@@ -1,16 +1,16 @@
-# React + Vite
+# Lumen-University
+Welcome to the Lumen University website! This is a single-page React app showcasing the university's key sections, including information about the campus, programs, testimonials, and more. The site is designed to offer prospective students a seamless navigation experience and an easy way to learn more about the university.
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+About: Learn more about Lumen University, its values, and mission.
+Contact: Contact information and a simple form to get in touch with the university.
+Campus: Explore the university campus, its facilities, and its locations.
+Testimonials: Read what students and alumni say about their experience at Lumen University.
+Programs: Information on academic programs, courses, and admissions.
+Footer: Includes links to important pages, social media handles, and copyright information.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies Used
+React: JavaScript library for building the user interface.
+React Router: Used for routing and navigation (if applicable).
+CSS: Custom styles for layout and design.
+FontAwesome: For using icons (for social media links, contact icons, etc.)
