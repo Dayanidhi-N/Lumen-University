@@ -13,7 +13,9 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 50 ? setSticky(true) : setSticky(false);
+      let D = window.scrollY;
+      console.log(D);
+      D > 50 ? setSticky(true) : setSticky(false);
     });
   }, []);
 

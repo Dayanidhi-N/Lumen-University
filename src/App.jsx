@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Programs from "./components/Programs/Programs";
 import Title from "./components/Title/Title";
@@ -12,7 +12,7 @@ import Videoplayer from "./components/Video/Videoplayer";
 import { useState } from "react";
 
 function App() {
-  const [playState, setPlayState] = useState(false);
+  const [playState, setPlayState] = useState(true);
   return (
     <>
       <Navbar />

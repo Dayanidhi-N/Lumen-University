@@ -13,7 +13,7 @@ const About = ({ setPlayState }) => {
           alt="Playbutton"
           className="play-icon"
           onClick={() => {
-            setPlayState(true);
+            setPlayState(false);
           }}
         />
       </div>

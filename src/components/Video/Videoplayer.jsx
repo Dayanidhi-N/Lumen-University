@@ -6,12 +6,12 @@ const Videoplayer = ({ playState, setPlayState }) => {
   const player = useRef(null);
   const closePlayer = (e) => {
     if (e.target === player.current) {
-      setPlayState(false);
+      setPlayState(true);
     }
   };
   return (
     <div
-      className={`video-player ${playState ? "" : "hide"}`}
+      className={`video-player ${playState ? "hide" : ""}`}
       ref={player}
       onClick={closePlayer}
     >
